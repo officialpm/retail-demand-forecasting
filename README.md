@@ -25,6 +25,12 @@ The public score was verified October 7, 2026. Development windows were reused a
 
 
 
+## Data exploration
+
+![Daily aggregate training sales across the full available history](sales-history.svg)
+
+Daily sales summed across all stores and product families, including zero-sales days. The scale and variability change over time; a single average is not a stable demand model. This aggregate plot does not explain whether a dip comes from closures, missing availability or another cause. It is descriptive, not a causal promotion analysis.
+
 ## How it works
 
 - Predict each store-family series separately, without dropping zero sales.
