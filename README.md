@@ -9,6 +9,8 @@ A small forecasting project for promotion-sensitive retail demand. It compares s
 
 This is a reproducible research workflow, not a deployed inventory system. It can be a foundation for a demand-planning service later; no service, dashboard or production integration is claimed here.
 
+![Project overview with measured results and workflow](project-overview.svg)
+
 ## Measured results
 
 | Measurement | Result |
