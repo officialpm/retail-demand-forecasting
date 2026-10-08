@@ -53,7 +53,7 @@ python train.py
 
 Set `FORECAST_DATA_DIR` and `FORECAST_OUTPUT_DIR` to use other folders. Outputs include fold/model/family/promotion-group metrics, paired deltas, validation and test predictions, a checked CSV, charts and file hashes. No upload or submission happens automatically.
 
-The portable script is an adaptation of the measured hosted run. Two synthetic tests passed locally: output shape/finiteness for all six models, and invariance to future target changes. Full-dataset retraining of the portable adaptation has **not** been run. Dependencies are compatible ranges, not a claimed exact lockfile for the historical environment.
+The portable script is an adaptation of the measured implementation. `workflow.ipynb` contains the same full implementation in explained, executable cells. Its empty code outputs do not claim a new run; recorded measurements are labeled separately. Two synthetic tests passed locally: output shape/finiteness for all six models, and invariance to future target changes. Full-dataset retraining of the portable adaptation has **not** been run. Dependencies are compatible ranges, not a claimed exact lockfile for the historical environment.
 
 ## Project map
 
@@ -62,7 +62,7 @@ The portable script is an adaptation of the measured hosted run. Two synthetic t
 | `train.py` | End-to-end loading, chronological evaluation and output writing |
 | `forecast.py` | Forecast implementation used by synthetic tests |
 | `test_forecast.py` | Output checks and future-target leakage test |
-| `workflow.ipynb` | Notebook entry point for the portable script |
+| `workflow.ipynb` | Full, explained loading, forecasting, evaluation and output workflow |
 | `RESULTS.md` | Measured result provenance and limits |
 | `LICENSE`, `NOTICE` | Code license, attribution and dataset separation |
 
