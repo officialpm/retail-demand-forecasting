@@ -66,4 +66,4 @@ No holidays, oil prices, transactions or stockout labels are modeled. Promotions
 
 This project uses the Corporacion Favorita Store Sales benchmark provided by the original benchmark organizers. Competition data is restricted to permitted competition, academic and noncommercial use; do not redistribute it. Apache-2.0 covers original code and docs only, not the dataset. NumPy, pandas and Matplotlib retain their licenses.
 
-Source notebook remains private; access to it is not required to use the portable code with authorized data. Charts show aggregate model results, not dataset rows. No dataset, secrets, generated predictions or model binaries are bundled.
+Charts show aggregate model results, not dataset rows. No dataset, secrets, generated predictions or model binaries are bundled.
